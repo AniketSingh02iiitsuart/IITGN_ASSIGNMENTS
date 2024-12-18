@@ -107,3 +107,18 @@ You will compare the performance of the models based on the following metrics:
 - Evaluating the models in a more robust way using K-Fold and LOSO Cross-Validation, which helps understand how they generalize to new data (especially important when working with subject-based datasets like HAR).
 - Selecting the best-performing model based on different performance metrics such as accuracy, precision, recall, and F1-Score.
 
+
+
+TASK -3
+
+Identify Correlated Features:
+Look at your dataset and check if some features (columns) are very similar to each other, meaning they provide almost the same information. For example, if you have "height in inches" and "height in centimeters," they're basically telling you the same thing. These are called "correlated features."
+
+Remove Redundant Features:
+After identifying such similar features, remove one of them. This is done to make your dataset smaller (reduce dimensionality) while keeping all the important information. It helps in simplifying the model and avoiding overfitting.
+
+Retrain Models:
+Take the smaller, cleaner dataset (with the redundant features removed) and train your machine learning models again. This step ensures the model learns from a less complex dataset.
+
+Report Performance Metrics Again:
+After retraining, check how well the models perform by looking at metrics like accuracy, precision, recall, etc. Compare these with the earlier results (from Task 2) to see if removing redundant features improved or maintained the model's performance.
