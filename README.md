@@ -25,7 +25,7 @@ A **Decision Tree** is a model that makes decisions by asking a series of questi
 ### 4. **Steps to Complete the Task**
 - **Use featurized data**: Work with the pre-processed data where important features have been extracted.
 - **Vary the tree's depth**: Train a Decision Tree with different depths to observe how its performance changes.
-- **Demonstrate the Bias-Variance Tradeoff**: By adjusting the tree depth, observe how the model performs on both training and testing data. A shallow tree may underperform (high bias), while a very deep tree may perform well on training data but poorly on test data (high variance).
+- **Demonstrate the Bias-Variance Tradeoff**: By adjusting the tree depth, observe how the model performs on both training and testing data. A shallow tree may underperform (high bias), while a very deep tree may perform well on training data but poorly on test data (high variance).  HII ANIKET
 - **Visualize the results**: Plot the performance (e.g., accuracy) for various tree depths to illustrate the relationship between model complexity and performance.
 
 ### 5. **Objectives to Focus On**
